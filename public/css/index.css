@@ -1,4 +1,6 @@
-body {margin:0;font-family:sans-serif;}
+body {
+  margin:0;
+  font-family:'Roboto', sans-serif;}
 
 .topnav {
   overflow: hidden;
@@ -19,16 +21,19 @@ body {margin:0;font-family:sans-serif;}
   color: white;
 }
 
+.nav{
+  float: right;
+}
 .topnav .icon {
   display: none;
 }
 
-.topnav a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover{
   color:#7FFFD4;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav a:not(:first-child) {
     display: none;
   }
   .topnav a.icon {
@@ -57,3 +62,18 @@ body {margin:0;font-family:sans-serif;}
     text-align: left;
   }
 }
+
+.bg {
+  float:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.Imresponsive {
+  width: 100%;
+  height: auto;
+}
+
